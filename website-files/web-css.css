@@ -1,0 +1,104 @@
+
+.container-fluid {
+    padding: 0 ;
+    margin: 0 ;
+}
+
+.row {
+    margin: 0 !;
+}
+
+
+.links-section {
+    text-align: right;
+}
+
+.header-divs {
+    background-color: aquamarine;
+    padding: 20px;
+}
+.header-divs:hover{
+    background-color: teal;
+}
+
+.header-links {
+    padding: 10px;
+    color: rgb(219, 8, 8);
+    text-decoration: none;
+}
+
+.header-links:hover {
+    color: rgb(138, 219, 8);
+}
+
+.header-links:active {
+    color: rgb(107, 8, 219);
+}
+
+.description {
+    text-align: center;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.image {
+    border-radius: 30px;
+}
+
+.my-name {
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.my-description {
+    font-family: 'Times New Roman';
+    font-size: large;
+    padding: 10px;
+}
+
+.contacts-head {
+    text-align: center;
+    font-family: Roboto;
+    padding: 30px;
+}
+
+p.contacts-head {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.contacts-info {
+    background-color: aqua;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.contacts-info:hover {
+    background-color: coral;
+}
+.projects{
+    text-align: center;
+    font: 1.5em sans-serif;
+    
+}
+.features-title{
+    padding-top: 10px;
+}
+.project-info {
+    background-color: rgba(214, 185, 22, 0.733);
+    height: 400px;
+    padding-top: 20px;
+    font-family: Arial;
+}
+
+.project-info:hover {
+    background-color: coral;
+}
