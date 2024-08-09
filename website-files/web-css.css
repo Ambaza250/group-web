@@ -31,9 +31,7 @@
     color: rgb(138, 219, 8);
 }
 
-.header-links:active {
-    color: rgb(107, 8, 219);
-}
+
 
 .description {
     text-align: center;
@@ -101,4 +99,8 @@ p.contacts-head {
 
 .project-info:hover {
     background-color: coral;
+}
+.drone-img{
+    width: 320px;
+    height: auto;
 }
