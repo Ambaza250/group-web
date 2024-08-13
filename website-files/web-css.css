@@ -120,6 +120,7 @@ p.contacts-head {
 .contact-me{
     width:800px;
     margin: 0 auto;
+    border-radius: 20px;
 }
 .contact{
     width:100%;
