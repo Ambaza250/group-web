@@ -23,7 +23,7 @@
 
 .header-links {
     padding: 10px;
-    color:   rgb(231, 76, 60) ;
+    color:   rgb(223, 23, 133) ;
     text-decoration: none;
 }
 
@@ -81,10 +81,10 @@ p.contacts-head {
 }
 
 .contacts-info {
-    background-color:  rgb(44, 62, 80);
-    height: 400px;
-    padding-top: 20px;
-    color: rgb(204, 196, 196);
+    background-color:  rgb(113, 122, 131);
+    height: 200px;
+    padding-top: 0px;
+    color: rgb(24, 22, 22);
 }
 
 
@@ -116,13 +116,26 @@ p.contacts-head {
 }
 .body{
     background-color:rgb(245, 245, 245) ;
+    padding:0px;
 }
 .contact-me{
-    width:800px;
+    width:50%;
     margin: 0 auto;
     border-radius: 20px;
+    text-align: center;
+
 }
 .contact{
     width:100%;
+    background-color: rgb(113, 122, 131);
 
+}
+#message-back{
+    color:white;
+}
+#contactForm{
+    margin: 0 auto;
+    border:solid;
+    background-color:rgb(142, 157, 172) ;
+    border-radius: 20px;
 }
