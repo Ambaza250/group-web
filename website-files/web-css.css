@@ -33,6 +33,7 @@
 
 
 
+
 .description {
     text-align: center;
     background-color:  rgb(248, 249, 250);
@@ -115,4 +116,12 @@ p.contacts-head {
 }
 .body{
     background-color:rgb(245, 245, 245) ;
+}
+.contact-me{
+    width:800px;
+    margin: 0 auto;
+}
+.contact{
+    width:100%;
+
 }

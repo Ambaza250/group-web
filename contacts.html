@@ -39,5 +39,46 @@
     </div>
   </div>
 </div>
+<!-- Contact Form -->
+<div class="row mt-5 contact">
+  <div class="col-lg-12 description contact-me">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </div>
+</div>
+</div>
+
+<script>
+// JavaScript for form validation
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+  // Get the values from the form fields
+  var email = document.getElementById("email").value.trim();
+  var message = document.getElementById("message").value.trim();
+  
+  // Simple validation
+  if (email === "" || message === "") {
+    // Alert the user if either field is empty
+    alert("Please fill out both the email and message fields.");
+    event.preventDefault(); // Prevent the form from submitting
+  }
+  
+  // Additional email validation
+  var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address.");
+    event.preventDefault();
+  }
+});
+</script>
 </body>
 </html>
