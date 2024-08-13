@@ -23,7 +23,7 @@
 
 .header-links {
     padding: 10px;
-    color:   rgb(223, 23, 133) ;
+    color:   rgb(109, 29, 141) ;
     text-decoration: none;
 }
 
@@ -138,4 +138,7 @@ p.contacts-head {
     border:solid;
     background-color:rgb(142, 157, 172) ;
     border-radius: 20px;
+}
+.form-space{
+    background-color: rgb(187, 216, 238) ;
 }
