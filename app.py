@@ -7,7 +7,7 @@ def init_db():
     db_path = os.path.abspath("contact.db")
     print(f"Initializing database at: {db_path}")
     with sqlite3.connect(db_path) as conn:
-        conn.execute('DROP TABLE IF EXISTS messages')  # This line will drop the table if it exists
+        conn.execute('DROP TABLE IF EXISTS messages') 
         conn.execute('''CREATE TABLE messages
                         (id INTEGER PRIMARY KEY AUTOINCREMENT,
                          email TEXT NOT NULL,
@@ -31,18 +31,18 @@ def about_me():
 
 @app.route('/contacts', methods=['GET', 'POST'])
 def contacts():
-    print("Request method:", request.method)  # Debug print
+    print("Request method:", request.method)  
     if request.method == 'POST':
         email = request.form.get('email')
         message = request.form.get('message')
-        print(f"Received: email={email}, message={message}")  # Debug print
+        print(f"Received: email={email}, message={message}") 
 
         if not email or not message:
-            print("Missing email or message")  # Debug print
+            print("Missing email or message")  
             return render_template('contacts.html', message="Please fill out both the email and message fields.")
 
         if '@' not in email:
-            print("Invalid email")  # Debug print
+            print("Invalid email")  
             return render_template('contacts.html', message="Please enter a valid email address.")
 
         
@@ -50,7 +50,7 @@ def contacts():
                 cursor = conn.cursor()
                 cursor.execute('INSERT INTO messages (email, message) VALUES (?, ?)', (email, message))
                 conn.commit()
-                print("Data inserted successfully")  # Debug print
+                print("Data inserted successfully") 
         
 
         return render_template('contacts.html', message="Message sent and stored successfully!")
