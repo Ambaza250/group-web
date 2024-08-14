@@ -23,12 +23,13 @@
 
 .header-links {
     padding: 10px;
-    color:   rgb(109, 29, 141) ;
+    color:   rgb(138, 219, 8) ;
     text-decoration: none;
 }
 
 .header-links:hover {
-    color: rgb(138, 219, 8);
+    
+    text-decoration: underline;
 }
 
 
@@ -132,6 +133,7 @@ p.contacts-head {
 }
 #message-back{
     color:white;
+    background-color: green;
 }
 #contactForm{
     margin: 0 auto;
@@ -141,4 +143,7 @@ p.contacts-head {
 }
 .form-space{
     background-color: rgb(187, 216, 238) ;
+}
+.footer-links{
+    color:rgb(224, 57, 202);
 }
