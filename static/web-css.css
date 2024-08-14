@@ -143,6 +143,8 @@ p.contacts-head {
 }
 .form-space{
     background-color: rgb(187, 216, 238) ;
+    width:80%;
+    margin: 0 auto;
 }
 .footer-links{
     color:rgb(224, 57, 202);
