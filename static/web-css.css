@@ -14,16 +14,12 @@
 }
 
 .header-divs {
-    background-color:rgb(44, 62, 80);
+    background-color:rgb(44, 62, 80) ;
     padding: 20px;
 }
-.header-divs:hover{
-    background-color:rgb(44, 62, 80);
-}
-
 .header-links {
     padding: 10px;
-    color:   rgb(138, 219, 8) ;
+    color:   gray;
     text-decoration: none;
 }
 
@@ -53,7 +49,7 @@
 }
 
 .image {
-    border-radius: 30px;
+    border-radius: 60px;
 }
 
 .my-name {
@@ -62,7 +58,7 @@
 }
 
 .my-description {
-    font-family: 'Times New Roman';
+    font-family:Helvetica;
     font-size: large;
     padding: 0px;
 }
@@ -82,7 +78,7 @@ p.contacts-head {
 }
 
 .contacts-info {
-    background-color:  rgb(113, 122, 131);
+    background-color:  rgb(44, 62, 80) ;
     height: 200px;
     padding-top: 0px;
     color: rgb(24, 22, 22);
@@ -98,11 +94,11 @@ p.contacts-head {
     padding-top: 10px;
 }
 .project-info {
-    background-color:  rgb(44, 62, 80);
+    background-color: rgb(44, 62, 80) ;
     height: 400px;
     padding-top: 20px;
     font-family: Arial;
-    color:  white;
+    color:  rgb(173, 163, 163);
 }
 
 
@@ -110,6 +106,7 @@ p.contacts-head {
 .drone-img{
     width: 320px;
     height: auto;
+    border-radius: 20px;
 }
 .logo{
     width: 30px;
@@ -128,7 +125,7 @@ p.contacts-head {
 }
 .contact{
     width:100%;
-    background-color: rgb(113, 122, 131);
+    background-color: rgb(44, 62, 80) ;
 
 }
 #message-back{
@@ -138,7 +135,7 @@ p.contacts-head {
 #contactForm{
     margin: 0 auto;
     border:solid;
-    background-color:rgb(142, 157, 172) ;
+    background-color:rgb(32, 66, 100)  ;
     border-radius: 20px;
 }
 .form-space{
@@ -147,5 +144,8 @@ p.contacts-head {
     margin: 0 auto;
 }
 .footer-links{
-    color:rgb(224, 57, 202);
+    color:gray;
+}
+body{
+    background-color: rgb(245, 245, 245);
 }
