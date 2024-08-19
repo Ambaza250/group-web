@@ -45,7 +45,6 @@ def contacts():
             print("Invalid email")  
             return render_template('contacts.html', message="Please enter a valid email address.")
 
-        
         with sqlite3.connect("contact.db") as conn:
                 cursor = conn.cursor()
                 cursor.execute('INSERT INTO messages (email, message) VALUES (?, ?)', (email, message))
