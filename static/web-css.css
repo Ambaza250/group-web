@@ -149,3 +149,7 @@ p.contacts-head {
 body{
     background-color: rgb(245, 245, 245);
 }
+.project-btn{
+    border-radius: 10px;
+    background-color: aquamarine;
+}

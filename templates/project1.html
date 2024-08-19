@@ -22,8 +22,8 @@
   </div>
 
   <div class="projects body">
-    <h1 class="contacts-head"><u>Projects</u></h1>
-    <h2 class="contacts-head">This page is for showcasing my projects</h2>
+    <h1 class="contacts-head"><u>Project 1: Fireguard Drone</u></h1>
+    <h2 class="contacts-head"></h2>
 
     <div class="row showgrid project-info">
       <div class="col-lg-8">
@@ -32,28 +32,43 @@
         <p>This project integrates cutting-edge technology to provide rapid response and effective firefighting capabilities, ensuring safety and efficiency.</p>
         <p>The Fireguard Drone project aims to revolutionize firefighting by providing a versatile and reliable tool</p>
         <p>that can operate in environments where traditional methods may be too dangerous or ineffective.</p>
-        <form action="{{url_for('project1')}}" ><button class="project-btn">Show info</button></form>
-        
       </div>
       <div class="col-lg-4">
         <img src="{{url_for('static',filename='drone.jpeg')}}" class="drone-img" />
       </div>
     </div>
-
     <div class="row showgrid project-info">
-      <div class="col-lg-8">
-        <p><b>Project2:CryptoLend</b></p>
-        <p>CryptoLend is an innovative and advanced lending system based on blockchain.</p>
-        <p>It removes the pain and time involved in traditional lending systems by removing intermediaries.</p>
-        <p>Hence creating a peer-to-peer network for lending and borrowing.</p>
-        <p>In this system, lending and borrowing are managed by smart contracts, which execute actions when certain conditions are met.</p>
-        <p>This means that the contract will take immediate action to pay back the loan if the borrower does not pay back in the specified time.</p>
+        <div class="col-lg-8">
+          <p><b>Features</b></p>
+          <p>Thermal Imaging Cameras: These allow the drone to detect heat signatures, making it possible to identify hotspots and fire sources even through smoke and dense foliage.
+        </p>
+          <p>Payload Delivery Systems: The drone can carry and deploy fire retardants, water, or other firefighting materials to specific locations, providing direct intervention capabilities in inaccessible areas.
+        </p>
+          <p>Easy Detection and Surveillance: They can be deployed to monitor high-risk areas, providing early warnings of potential fire outbreaks</p>
+          
+        </div>
+        <div class="col-lg-4">
+            <img src="{{url_for('static',filename='drone1.jpg')}}" class="drone-img" />
+            
+        </div>
       </div>
-      <div class="col-lg-4 project-info">
-        <img src="{{url_for('static',filename='cryptolend.jpg')}}" class="drone-img" />
-      </div>
-    </div>
 
+      <div class="row showgrid project-info">
+        <div class="col-lg-8">
+            <p><b>Benefits</b></p>
+            <p>Early Detection: Equipped with thermal imaging cameras, the Fire Guard Drone can detect fires at their nascent stages, even before they become visible to the naked eye.</p>
+            <p>Continuous Surveillance: The drone can provide constant monitoring of high-risk areas, especially during fire seasons, ensuring that any emerging fire threat is quickly identified and addressed.
+            </p>
+            
+        </div>
+        <div class="col-lg-4">
+            <img src="{{url_for('static',filename='drone2.jpeg')}}" class="drone-img" />
+            
+            
+        </div>
+      </div>
+
+    
     
 </body>
 </html>
